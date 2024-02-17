@@ -58,11 +58,40 @@ FIGURE-02
 
 FIGURE -03
 
+<img width="433" alt="Screenshot 2024-02-16 155229" src="https://github.com/mohamedzayeemnadeem/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/119476069/0d45be66-fb86-4980-8cd9-0699d0d1a544">
+
 
 
 
 ## PROGRAM 
- 
+
+ // C++ code
+//
+int led=3;
+int pushbutton=4;
+void setup()
+{
+  pinMode(led,OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
+
+void loop()
+{
+  int pb;
+  pb=digitalRead(pushbutton);
+  if(pb==HIGH)
+  {
+    digitalWrite(led,HIGH);
+    delay(500);
+    digitalWrite(led,LOW);
+    delay(500);
+  }
+  else
+  {
+    digitalWrite(led,LOW);
+    delay(500);
+  }
+}
  
 
 
@@ -82,4 +111,11 @@ FIGURE -03
 ## OUTPUT OF SIMULATION :
 
 [My image](username.github.com/repository/img/image.jpg)
+light condition off
+![Screenshot (3)](https://github.com/mohamedzayeemnadeem/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/119476069/0f9c6dff-c3c0-4ad6-aba7-443e7eab247a)
+C:\Users\Zayeem\Pictures\Screenshots\Screenshot (2).png
+light condition on
+
+![Screenshot (2)](https://github.com/mohamedzayeemnadeem/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/119476069/4f901081-db17-4792-a602-3f548f7dd076)
+
 
