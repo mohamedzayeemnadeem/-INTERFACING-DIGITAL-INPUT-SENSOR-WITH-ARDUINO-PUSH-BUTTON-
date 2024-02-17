@@ -2,7 +2,7 @@
 ## DATE :16.02.2024
 ## NAME :mohamed zayeem nadeem																		             
 ## ROLLNUMBER :212222040102
-## DEPARTMENT : computer science engineering
+## DEPARTMENT : Computer Science Engineering
 
 
 ## AIM:
